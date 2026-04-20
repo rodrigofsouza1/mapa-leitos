@@ -1,0 +1,73 @@
+andar,posto_enfermagem,leito,status,nome_paciente,registro_hospitalar,especialidade,sexo,isolamento
+2,D2P1,201A,ocupado,Maria Silva,100001,Clínica Médica,F,Nenhum
+2,D2P1,201B,ocupado,João Santos,100002,Cardiologia,M,Contato
+2,D2P1,201C,desocupado,,,,,
+2,D2P1,201D,ocupado,Ana Oliveira,100003,Neurologia,F,Respiratório
+2,D2P1,201E,desocupado,,,,,
+2,D2P1,201F,ocupado,Carlos Lima,100004,Pneumologia,M,Nenhum
+2,D2P2,203A,ocupado,Fernanda Costa,100005,Nefrologia,F,Nenhum
+2,D2P2,203B,desocupado,,,,,
+2,D2P2,203C,ocupado,Roberto Alves,100006,Cirurgia Geral,M,Gotículas
+2,D2P2,203D,desocupado,,,,,
+2,D2P2,203E,ocupado,Lucia Mendes,100007,Infectologia,F,Aerossóis
+2,D2P2,203F,ocupado,Pedro Souza,100008,Clínica Médica,M,Nenhum
+2,D2P2,203G,desocupado,,,,,
+2,D2P2,203H,ocupado,Beatriz Ramos,100009,Cardiologia,F,Nenhum
+2,D2P3,205A,ocupado,André Martins,100010,Ortopedia,M,Nenhum
+2,D2P3,205B,desocupado,,,,,
+2,D2P3,205C,ocupado,Juliana Ferreira,100011,Neurologia,F,Contato
+2,D2P3,205D,ocupado,Marcos Pereira,100012,Clínica Médica,M,Nenhum
+2,D2P3,205E,desocupado,,,,,
+2,D2P3,205F,ocupado,Camila Ribeiro,100013,Pneumologia,F,Nenhum
+2,E2P1,204A,ocupado,Ricardo Gomes,100014,Neurocirurgia,M,Nenhum
+2,E2P1,204B,desocupado,,,,,
+2,E2P1,204C,ocupado,Patrícia Nunes,100015,Neurologia,F,Contato
+2,E2P1,204D,ocupado,Eduardo Dias,100016,Neurocirurgia,M,Nenhum
+2,E2P1,204E,desocupado,,,,,
+2,E2P1,204F,ocupado,Sandra Lopes,100017,Neurologia,F,Nenhum
+2,E2P2,206A,ocupado,Gustavo Carvalho,100018,Cirurgia Geral,M,Nenhum
+2,E2P2,206B,ocupado,Helena Moreira,100019,Cirurgia Cardíaca,F,Respiratório
+2,E2P2,206C,desocupado,,,,,
+2,E2P2,206D,ocupado,Bruno Teixeira,100020,Cirurgia Vascular,M,Nenhum
+2,E2P2,206E,desocupado,,,,,
+2,E2P2,206F,ocupado,Renata Pinto,100021,Urologia,F,Nenhum
+2,E2P2,206G,ocupado,Thiago Barbosa,100022,Cirurgia Geral,M,Gotículas
+2,E2P2,206H,desocupado,,,,,
+2,E2P2,206I,ocupado,Isabela Cunha,100023,Cirurgia Torácica,F,Nenhum
+2,E2P2,206J,desocupado,,,,,
+2,E2P3,208A,ocupado,Rafael Cardoso,100024,Ortopedia,M,Nenhum
+2,E2P3,208B,ocupado,Letícia Rocha,100025,Neurocirurgia,F,Contato
+2,E2P3,208C,desocupado,,,,,
+2,E2P3,208D,ocupado,Felipe Araújo,100026,Cirurgia Geral,M,Nenhum
+2,E2P3,208E,ocupado,Vanessa Monteiro,100027,Ortopedia,F,Nenhum
+2,E2P3,208F,desocupado,,,,,
+2,E2P3,208G,ocupado,Diego Nascimento,100028,Neurocirurgia,M,Respiratório
+2,E2P3,208H,desocupado,,,,,
+2,E2P3,208I,ocupado,Aline Correia,100029,Ortopedia,F,Nenhum
+2,E2P3,208J,ocupado,Leandro Vieira,100030,Cirurgia Geral,M,Nenhum
+2,E2P4,214A,ocupado,Márcia Freitas,100031,Cardiologia,F,Nenhum
+2,E2P4,214B,desocupado,,,,,
+2,E2P4,214C,ocupado,Fábio Castro,100032,Cardiologia,M,Contato
+2,E2P4,214D,ocupado,Cláudia Duarte,100033,Cardiologia,F,Nenhum
+2,E2P4,214E,desocupado,,,,,
+2,E2P4,214F,ocupado,Sérgio Machado,100034,Cardiologia,M,Nenhum
+3,D3P1,301A,ocupado,Adriana Campos,100035,Hepatologia,F,Nenhum
+3,D3P1,301B,ocupado,Rogério Nogueira,100036,Nefrologia,M,Contato
+3,D3P1,301C,desocupado,,,,,
+3,D3P1,301D,ocupado,Tatiana Borges,100037,Hepatologia,F,Respiratório
+3,D3P1,301E,desocupado,,,,,
+3,D3P1,301F,ocupado,Marcelo Reis,100038,Transplante Renal,M,Nenhum
+3,D3P1,301G,ocupado,Débora Fonseca,100039,Transplante Hepático,F,Nenhum
+3,D3P1,301H,desocupado,,,,,
+3,D3P1,301I,ocupado,Alexandre Moura,100040,Nefrologia,M,Aerossóis
+3,D3P1,301J,desocupado,,,,,
+4,E4P1,E4P1-01,ocupado,Simone Brito,100041,Clínica Médica,F,Nenhum
+4,E4P1,E4P1-02,ocupado,Paulo Henrique,100042,Gastroenterologia,M,Contato
+4,E4P1,E4P1-03,desocupado,,,,,
+4,E4P1,E4P1-04,ocupado,Elaine Sampaio,100043,Pneumologia,F,Nenhum
+4,E4P1,E4P1-05,desocupado,,,,,
+4,E4P1,E4P1-06,ocupado,Vinícius Prado,100044,Clínica Médica,M,Nenhum
+4,E4P4,E4P4-01,ocupado,Amanda Torres,100045,Hematologia,F,Respiratório
+4,E4P4,E4P4-02,ocupado,Daniel Azevedo,100046,Hematologia,M,Aerossóis
+4,E4P4,E4P4-03,desocupado,,,,,
+4,E4P4,E4P4-04,ocupado,Cristiane Melo,100047,Oncologia,F,Contato

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Leitos — HC UNICAMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏥 Mapa de Leitos — HC UNICAMP</h1>
+        <div id="upload-area">
+            <label for="csv-upload" class="upload-btn">📁 Carregar CSV</label>
+            <input type="file" id="csv-upload" accept=".csv" />
+            <span id="file-name">Nenhum arquivo carregado</span>
+        </div>
+    </header>
+
+    <section id="dashboard">
+        <div class="stat-card total"><span class="stat-num" id="stat-total">0</span><span class="stat-label">Total de Leitos</span></div>
+        <div class="stat-card occupied"><span class="stat-num" id="stat-occupied">0</span><span class="stat-label">Ocupados</span></div>
+        <div class="stat-card free"><span class="stat-num" id="stat-free">0</span><span class="stat-label">Livres</span></div>
+        <div class="stat-card isolation"><span class="stat-num" id="stat-isolation">0</span><span class="stat-label">Com Isolamento</span></div>
+    </section>
+
+    <section id="filters">
+        <div class="filter-group">
+            <label for="filter-andar">Andar:</label>
+            <select id="filter-andar"><option value="">Todos</option></select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-posto">Posto:</label>
+            <select id="filter-posto"><option value="">Todos</option></select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-especialidade">Especialidade:</label>
+            <select id="filter-especialidade"><option value="">Todas</option></select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-sexo">Sexo:</label>
+            <select id="filter-sexo">
+                <option value="">Todos</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-isolamento">Isolamento:</label>
+            <select id="filter-isolamento">
+                <option value="">Todos</option>
+                <option value="sim">Com Isolamento</option>
+                <option value="nao">Sem Isolamento</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="filter-status">Status:</label>
+            <select id="filter-status">
+                <option value="">Todos</option>
+                <option value="ocupado">Ocupado</option>
+                <option value="desocupado">Desocupado</option>
+            </select>
+        </div>
+    </section>
+
+    <div id="legend">
+        <span class="legend-item"><span class="legend-color free"></span> Desocupado</span>
+        <span class="legend-item"><span class="legend-color occupied"></span> Ocupado</span>
+        <span class="legend-item"><span class="legend-color isolation"></span> Com Isolamento</span>
+        <span class="legend-item"><span class="legend-color no-data"></span> Sem dados CSV</span>
+    </div>
+
+    <nav id="floor-tabs"></nav>
+    <main id="floor-content"></main>
+
+    <footer>
+        <p>Mapa de Leitos — HC UNICAMP © 2026</p>
+    </footer>
+
+    <div id="tooltip" class="tooltip hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
